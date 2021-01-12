@@ -6,7 +6,7 @@
   }
   
   .home,
-  .projects{
+  .about{
     display: flex;
     height: 90vh;
     align-items: center;
@@ -14,7 +14,7 @@
     font-size: 3rem;
   }
   
-  .projects {
+  .about {
     color: black;
     font-size: 100px;
   }

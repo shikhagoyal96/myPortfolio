@@ -1,0 +1,49 @@
+.progress {
+  margin:auto;
+    background-color: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 800px;
+  }
+
+  .progress-container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    /*border-radius: 100px;*/
+    background: blue;
+    height: 25px;
+    width: 0;
+  }
+
+  .skills-value {
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 4px;
+    color: white;
+    font-size: 12px;
+  }
+
+  label{
+    width:20%;
+    padding-right: 2%;
+  }
+
+  h4{
+    padding-left: 2%;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 68%; }
+  }

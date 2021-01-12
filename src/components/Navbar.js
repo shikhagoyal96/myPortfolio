@@ -26,9 +26,6 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        ShikhaGoyal
-                    </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
@@ -39,13 +36,18 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                                About
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>
                                 Projects
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>
-                                Resume
+                                Contact Info
                             </Link>
                         </li>
                     </ul>
