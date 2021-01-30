@@ -7,7 +7,7 @@
     text-align: center;
   }*/
   
-  .cards__container {
+  /* .cards__container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -19,7 +19,7 @@
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
-  }
+  } */
   
   .cards__items {
     margin-bottom: 24px;
@@ -32,7 +32,7 @@
     border-radius: 10px;
   }
   
-  .cards__item__link {
+  /* .cards__item__link {
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -43,7 +43,7 @@
     overflow: hidden;
     text-decoration: none;
   }
-  
+   */
   .cards__item__info {
     padding: 20px 30px 30px;
   }
@@ -60,6 +60,10 @@
     line-height: 24px;
     padding: 2%;
     text-align: center;
+  }
+
+  a{
+      align-content: center;
   }
   
   /*@media only screen and (min-width: 1200px) {

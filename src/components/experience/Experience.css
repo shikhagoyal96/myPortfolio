@@ -1,0 +1,16 @@
+#exp-container{
+    padding: 4%;  
+}
+.accordian-container{
+    width: 60%;
+    padding-top: 2%;
+    text-align: center;
+    margin: auto;
+}
+.heading{
+    color: blue;
+    font-size: 24px;
+}
+.desc{
+    font-size: 16px;
+}

@@ -1,6 +1,6 @@
   .main-container {
-    background: url('C:\myportfolio\src\assets\main.jpg'); 
-    height: 60vh;
+    background: url('../../assets/main_section.jpg'); 
+    height: 780px;
     width: 100%;
     display: flex;
     flex-direction: column;
