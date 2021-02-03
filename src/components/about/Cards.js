@@ -1,12 +1,10 @@
 import React from 'react';
-import './Cards.css';
+import '../css/Cards.css';
 import CardItem from './CardItem';
 
-function Cards(props) {
+function Cards() {
   return (
     <div className='cards'>
-      {/* <div className='cards__container'>
-        <div className='cards__wrapper'> */}
           <ul className='cards__items'>
             <CardItem 
               text='I am a graduate of the DIT University with a Bachelor of Technology Degree in Computer Science and Engineering. I also hold Ontario Graduate Certificate (OGC) in Web Development from Humber College. My interest in Web Development began when I did my first internship wherein I created a static website for the company and got to work in various designing tools as well as implementing them via coding.'
@@ -21,9 +19,7 @@ function Cards(props) {
               label='My Goals'
             />
           </ul>
-        </div>
-    //   </div>
-    // </div>
+    </div>
   );
 }
 

@@ -1,34 +1,25 @@
 import React, {Component} from 'react';
 import '../../App.css';
-//import { Button } from './Button';
-import './MainSection.css';
+import '../css/MainSection.css';
 import { Link} from 'react-router-dom';
 
   class MainSection extends React.Component{
     render(){
-  return (
-    <div className='main-container'>
-    
-      <h1>Shikha Goyal</h1>
-      <p>Junior Web Developer</p>
-     
+    return (
+      <div className='main-container'>
       
-      <br/>
-      <div className='main-btns'>
-        <div
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-            <Link to='/myresume' style={{color: "white", fontSize:"32px"}} >
-                Download Resume
-            </Link>
-        </div>
+        <h1>Shikha Goyal</h1>
+        <p>Junior Web Developer</p>
         
+        <br/>
+        <div className='resume_section'>
+          <Link to='/myresume'>
+            <p className="resume_title">Download Resume</p>
+          </Link>
+        </div>
       </div>
-    </div>
-  );
-}
+    );
   }
+}
 
 export default MainSection

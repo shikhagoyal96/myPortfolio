@@ -1,12 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import logo1 from '../../assets/mern.jpg';
+import logo1 from '../../assets/mern.png';
 import logo2 from '../../assets/aspnet.jpg';
 import logo3 from '../../assets/java.jpg';
 import logo4 from '../../assets/php.png';
 import ProjectDetails from './ProjectDetails';
 
-function PP(){
+function ProjectCards(){
     const [modalShow, setModalShow] = React.useState(false);
         return (
             <>
@@ -33,4 +33,4 @@ function PP(){
         );
     }
 
-export default PP
+export default ProjectCards

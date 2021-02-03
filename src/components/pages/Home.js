@@ -1,15 +1,10 @@
 import React from 'react';
-import '../../App.css';
+import Navbar from '../navigation/Navbar';
 import MainSection from '../header/MainSection';
 import About from '../about/About';
 import Experience from '../experience/Experience';
-//import Projects from '../PProjects/Projects';
 import Projects from '../projects/Projects';
-// import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
-import Navbar from '../navigation/Navbar';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
@@ -18,9 +13,8 @@ function Home() {
         <Navbar />
         <MainSection /> 
         <About />
-        <Experience />
         <Projects />
-        {/* <Contact /> */}
+        <Experience />
         <Footer />
       </div>
     </>

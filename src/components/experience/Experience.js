@@ -2,14 +2,15 @@ import React, {Component} from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import './Experience.css';
+import '../css/Experience.css';
 
 
 class Experience extends React.Component{
     render(){
         return (
             <>
-            <div id="exp-contaier"><h1 style={{fontSize: "60px", textAlign: "center"}}>EXPERIENCE</h1>
+            <div id="exp-contaier">
+                <h1 style={{fontSize: "60px", textAlign: "center"}}>EXPERIENCE</h1>
                 <div className="accordian-container">
                 <Accordion defaultActiveKey="0">
                     <Card>
@@ -20,7 +21,7 @@ class Experience extends React.Component{
                             <Card.Body>
                                 <ListGroup variant="flush">
                                     <ListGroup.Item>
-                                        <h5>Company : H2A HR Solutions, Toronto, Ontario</h5>
+                                        <p className="desc_title">Company : H2A HR Solutions, Toronto, Ontario</p>
                                         <p className="desc">Redesigned company's website making it more
                                         accessible, responsive and user-friendly with improved
                                         functionalities.
@@ -44,7 +45,7 @@ class Experience extends React.Component{
                             <Card.Body>
                                 <ListGroup variant="flush">
                                     <ListGroup.Item>
-                                    <h5>Company : Shivalik Sports, Dehradun, Uttarakhand</h5>
+                                    <p className="desc_title">Company : Shivalik Sports, Dehradun, Uttarakhand</p>
                                     <p className="desc">
                                         Developed and designed a website for company's trusted brand CottonKing
                                         using WordPress CMS.
@@ -62,7 +63,7 @@ class Experience extends React.Component{
                             <Card.Body>
                                 <ListGroup variant="flush">
                                     <ListGroup.Item>
-                                    <h5>Company : Oil And Natural Gas Corporation Ltd, Dehradun, Uttarakhand</h5>
+                                    <p className="desc_title">Company : Oil And Natural Gas Corporation Ltd, Dehradun, Uttarakhand</p>
                                     <p className="desc">
                                          Developed scalable monitoring system for managing
                                         computer clusters.

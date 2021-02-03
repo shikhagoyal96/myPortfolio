@@ -1,7 +1,5 @@
 import React from 'react';
-// import './Projects.css';
-// import Pcards from './Pcards';
-import PP from './PP';
+import ProjectCards from './ProjectCards';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,8 +8,7 @@ function Projects() {
         <>
            <div className="projects" id="projects" style={{padding: "4%"}}>
                 <h1 style={{fontSize: "60px", textAlign: "center"}}>PROJECTS</h1>
-                {/* <Pcards /> */}
-                <PP />
+                <ProjectCards />
             </div> 
         </>
     )
