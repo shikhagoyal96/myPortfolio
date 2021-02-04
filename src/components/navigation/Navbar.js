@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import './Navbar.css';
+import '../css/Navbar.css';
 
 function Navbar() {
     const[click, setClick]=useState(false);
@@ -27,7 +27,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
-                <div className="navbar-container">
+                <div className="navbar-container" >
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
@@ -42,11 +42,11 @@ function Navbar() {
                                 ABOUT
                             </Link>
                         </li>
-                        {/* <li className='nav-item'>
-                            <Link to='experience' className='nav-links' onClick={closeMobileMenu} smooth={true} duration={1000}>
+                        <li className='nav-item'>
+                            <Link to='exp-contaier' className='nav-links' onClick={closeMobileMenu} smooth={true} duration={1000}>
                                 EXPERIENCE
                             </Link>
-                        </li> */}
+                        </li>
                         <li className='nav-item'>
                             <Link to='projects' className='nav-links' onClick={closeMobileMenu} smooth={true} duration={1000}>
                                 PROJECTS
@@ -54,7 +54,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='contact' className='nav-links' onClick={closeMobileMenu} smooth={true} duration={1000}>
-                                CONTACT INFO
+                                CONTACT 
                             </Link>
                         </li>
                     </ul>

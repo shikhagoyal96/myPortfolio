@@ -11,7 +11,7 @@ function ProjectCards(){
         return (
             <>
             <ul className='cards__items' style={{width: '80%', margin: 'auto' }}>
-                <Card style={{ width: '80%', margin: '2%' }} onClick={() => setModalShow(true)}>
+                <Card style={{ width: '80%', margin: '2%'}} onClick={() => setModalShow(true)}>
                     <Card.Img variant="top" src={logo1} alt="aa" />
                 </Card>
                 <Card style={{ width: '80%', margin: '2%'  }} onClick={() => setModalShow(true)}>
